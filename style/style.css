@@ -1,0 +1,62 @@
+/* welcome */
+.welcome__buttons--center > .row {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+/* signin */
+.signin{
+  margin-top: 20px;
+}
+
+.vkwidget {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.signin img {
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.signin .row {
+  text-align: center;
+}
+
+/* invites */
+.invites .row {
+  margin-top: 10px;
+}
+
+.invites {
+ margin-bottom: 10px;
+}
+
+/* invite */
+.invite {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.invite .btn-group {
+  margin-bottom: 5px;
+}
+
+.invite .name {
+  text-align: center;
+}
+
+.loader {
+  display: inline-block;
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #5cb85c;
+  width: 51px;
+  height: 51px;
+  animation: spin .5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

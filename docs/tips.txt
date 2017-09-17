@@ -1,0 +1,18 @@
+Webpack with cdn
+
+module.exports = {
+  externals: {
+    "lodash": "_",
+    "react": "React",
+    "react-dom": "ReactDOM",
+    "react-router": "ReactRouter"
+  },
+};
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.0/react.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.0/react-dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-router/3.0.0/ReactRouter.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+-------------------------------------------------------------------------------
