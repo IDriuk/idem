@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const path = require('path');
 const md5 = require('md5');
-const { User, Invite, addInvite } = require('./models');
+const { User, Invite } = require('./models');
 
 module.exports = function(app) {
 
@@ -140,11 +140,6 @@ module.exports = function(app) {
     }
 
   });
-
-  // app.post(`/addInvite`, (req, res) => {
-  //   const { invite, user } = req.body;
-  //   addInvite(invite, user);
-  // });
 
   app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, '../index.html'));
